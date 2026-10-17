@@ -164,6 +164,14 @@ internal val ConfigSectionGroups: List<ConfigSection> = listOf(
                     "pref_expand_collapse_",
                 ),
             ),
+            ConfigSection(
+                id = "appearance_more_ui",
+                titleRes = R.string.appearance_more_ui,
+                exactKeys = listOf(
+                    "pref_island_mini_bar_behavior",
+                    "pref_notification_mini_bar_behavior",
+                ),
+            ),
         ),
     ),
     ConfigSection(
@@ -334,6 +342,7 @@ internal val ConfigSectionGroups: List<ConfigSection> = listOf(
                     "pref_home_assistant",
                     "pref_home_assistant_url",
                     "pref_home_assistant_subscriptions",
+                    "pref_home_assistant_screen_off_power_save",
                     "pref_home_assistant_display_seconds",
                 ),
             ),

@@ -979,6 +979,16 @@
     <string name="color_code">颜色编码（#RRGGBB 或 #AARRGGBB）</string>
     <string name="appearance_animation">动画</string>
     <string name="appearance_animation_summary">调整展开收起动画</string>
+    <string name="appearance_more_ui">更多界面修改</string>
+    <string name="mini_bar_section">通知小白条</string>
+    <string name="mini_bar_focus_title">焦点通知下拉小白条</string>
+    <string name="mini_bar_focus_summary">岛内焦点通知展开态的下拉横条</string>
+    <string name="mini_bar_normal_title">普通通知下拉小白条</string>
+    <string name="mini_bar_normal_summary">通知栏与悬浮通知的下拉横条</string>
+    <string name="mini_bar_behavior_hidden">隐藏</string>
+    <string name="mini_bar_behavior_hidden_summary">仅设为透明</string>
+    <string name="mini_bar_behavior_removed">移除</string>
+    <string name="mini_bar_behavior_removed_summary">完全不显示也不生效</string>
     <string name="expand_collapse_custom">展开态收起动画自定义</string>
     <string name="expand_collapse_custom_summary">自定义展开态收起动画参数</string>
     <string name="expand_collapse_transparency">透明度</string>
@@ -1034,6 +1044,7 @@
     <string name="preset_field_time">时间</string>
     <string name="preset_field_author">作者</string>
     <string name="preset_field_status">状态</string>
+    <string name="preset_field_version">版本</string>
     <string name="preset_field_reject_reason">原因</string>
     <string name="preset_status_not_uploaded">未上传</string>
     <string name="preset_status_pending">审核中</string>
@@ -1061,6 +1072,8 @@
     <string name="preset_update_removed">该配置已在云端被移除，已转为全新的本地配置</string>
     <string name="preset_uploading">上传中…</string>
     <string name="preset_modify_config">修改配置</string>
+    <string name="preset_update_config">更新配置</string>
+    <string name="preset_update_failed">更新配置失败</string>
     <string name="preset_modify_success">已覆盖「%1$s」</string>
     <string name="preset_confirm">确认</string>
     <string name="preset_confirm_delete_title">是否删除</string>
@@ -1084,6 +1097,8 @@
     <string name="ext_home_assistant_summary">通过 WebSocket 订阅实体状态</string>
     <string name="ext_home_assistant_enable">Home Assistant 拓展</string>
     <string name="ext_home_assistant_enable_summary">注入系统界面实现订阅事件，无需后台服务</string>
+    <string name="ha_screen_off_power_save">息屏省电</string>
+    <string name="ha_screen_off_power_save_summary">息屏后断开常驻连接</string>
     <string name="ha_server">服务器地址</string>
     <string name="ha_server_hint">支持 http:// 或 https://（也可填 ws://），端口按填写值连接</string>
     <string name="ha_token">长期访问令牌</string>
@@ -1201,4 +1216,7 @@
     <string name="ha_display_custom">自定义</string>
     <string name="ha_display_seconds_hint">单位秒，可填 1 - %1$d</string>
 
+    <!-- 公告弹窗（服务端下发正文，客户端只负责展示与去重） -->
+    <string name="notice_title">公告</string>
+    <string name="notice_confirm_countdown">确认（%1$d）</string>
 </resources>
